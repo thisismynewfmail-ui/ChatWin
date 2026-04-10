@@ -74,7 +74,7 @@ export class WhisplayDisplay {
     if (this.cameraEnabled && !webCameraEnabled) {
       this.ensureCameraDaemon();
     }
-    const webEnabled = parseBoolEnv("WHISPLAY_WEB_ENABLED", false);
+    const webEnabled = parseBoolEnv("WHISPLAY_WEB_ENABLED", true);
     if (webEnabled) {
       const port = parseInt(process.env.WHISPLAY_WEB_PORT || "17880", 10);
       const host = process.env.WHISPLAY_WEB_HOST || "0.0.0.0";

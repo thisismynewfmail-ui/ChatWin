@@ -15,7 +15,8 @@
 
 body {
   margin: 0;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Grotesk", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
   background: radial-gradient(circle at 20% 0%, #1c2a3d, #0b1016 60%);
   color: var(--text);
   min-height: 100vh;
@@ -85,9 +86,11 @@ body {
 }
 
 .emoji {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji", "Twemoji Mozilla", sans-serif;
   font-size: 40px;
   text-align: center;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .status-icons {
@@ -160,6 +163,8 @@ body {
   left: 0;
   top: 0;
   right: 0;
+  font-family: "Space Grotesk", "Apple Color Emoji", "Segoe UI Emoji",
+    "Noto Color Emoji", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   white-space: pre-wrap;
